@@ -1,0 +1,5 @@
+with(x, plot(DTime, Sub1, type="n"))
+with(x, plot(DTime, Sub1, type="l"))
+with(x, lines(DTime, Sub2, type="l", col="red"))
+with(x, lines(DTime, Sub3, type="l", col="blue"))
+legend("topright", lty=c(1,1), col=c("black", "red", "blue"), legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
